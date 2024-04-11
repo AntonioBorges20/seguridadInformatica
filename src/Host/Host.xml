@@ -4,5 +4,48 @@
         <name>Host</name>
     </assembly>
     <members>
+        <member name="M:Host.Controllers.DashboardController.GetUsuarios">
+            <summary>
+            Get de todos los usuarios
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Host.Controllers.DashboardController.Create(ApplicationCore.DTOs.UserDto)">
+            <summary>
+            /// Create de tabla
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Host.Controllers.DashboardController.GetIpAddress">
+            <summary>
+            /// Optener IP
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Host.Controllers.DashboardController.Create(ApplicationCore.DTOs.LogsDto)">
+            <summary>
+            /// Logs
+            </summary>
+            <returns></returns>
+            
+        </member>
+        <member name="M:Host.Controllers.DashboardController.DeleteUser(System.Int32)">
+            <summary>
+            /// Delete
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Host.Controllers.DashboardController.UpdateUser(System.Int32,ApplicationCore.DTOs.UserDto)">
+            <summary>
+            /// Update
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Host.Controllers.DashboardController.GetPaginated">
+            <summary>
+            Paginated
+            </summary>
+            <returns></returns>
+        </member>
     </members>
 </doc>
